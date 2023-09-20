@@ -6,9 +6,10 @@ on:
       - master
 
 jobs:
-  permissions:
-    pages: write    
-    id-token: write 
+  deploy:
+    permissions:
+      pages: write    
+      id-token: write 
 
   build:
     runs-on: ubuntu-latest
