@@ -8,23 +8,11 @@ module('Integration | Component | rental/image', function (hooks) {
 
   test('it renders the given image', async function (assert) {
     await render(hbs`
-
-
-
       <Rental::Image
         src="/assets/images/teaching-tomster.png"
         alt="Teaching Tomster"
       />
     `);
-    assert.dom().hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <Rental::Image>
-        template block text
-      </Rental::Image>
-    `);
-
     assert
       .dom('.image img')
       .exists()
