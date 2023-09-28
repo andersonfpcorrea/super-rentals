@@ -44,5 +44,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.MAPQUEST_ACCESS_TOKEN = 'not-a-real-key';
+
   return ENV;
 };
