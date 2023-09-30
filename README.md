@@ -1,6 +1,6 @@
 # super-rentals
 
-lorem ipsum...
+Experimenting with Ember.js by following the [tutorial](https://guides.emberjs.com/v5.3.0/tutorial/part-1/).
 
 ## Prerequisites
 
